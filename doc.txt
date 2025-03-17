@@ -1,0 +1,31 @@
+ Documentation du Site Web de Sécurisation des PME
+📌 1. Introduction
+Ce projet est un site web dédié à la sécurisation des infrastructures des PME. Il permet aux entreprises de comprendre les enjeux de la cybersécurité et d’accéder à des services spécialisés pour protéger leurs données et infrastructures informatiques.
+
+🎯 Objectifs :
+Sensibiliser les PME aux cybermenaces.
+Proposer des solutions adaptées pour protéger leurs infrastructures.
+Fournir des ressources et un accompagnement en matière de cybersécurité.
+📌 2. Présentation de l'application
+💡 Fonctionnalités principales :
+L’application est divisée en quatre sections principales, accessibles via un menu de navigation clair et intuitif :
+
+1️⃣ Qui sommes-nous ?
+
+Présentation de l’entreprise et de son expertise en cybersécurité.
+Nos valeurs et notre engagement envers les PME.
+2️⃣ République
+
+Explication du cadre réglementaire en cybersécurité.
+Obligations légales pour les PME (RGPD, protection des données).
+Bonnes pratiques pour assurer la conformité.
+3️⃣ Services
+
+Audit de sécurité 🔍 : Analyse des vulnérabilités des PME.
+Test d’intrusion (pentest) 🛡️ : Simulation d’attaques pour tester la résistance des systèmes.
+Formation en cybersécurité 🎓 : Sensibilisation des employés aux cybermenaces.
+Mise en conformité RGPD 📜 : Assistance pour respecter les obligations légales.
+4️⃣ Contact
+
+Formulaire permettant aux entreprises de poser leurs questions et demander un devis.
+Service client disponible par e-mail et téléphone.

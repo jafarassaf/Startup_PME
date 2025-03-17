@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', '4SecurIT PME'),
+    'name' => env('APP_NAME', 'NCP - Network & Cybersecurity Protection'),
 
     /*
     |--------------------------------------------------------------------------
