@@ -1,0 +1,80 @@
+?? Objectif :
+Tu dois générer un site web en Laravel avec Laravel Breeze, contenant quatre onglets principaux :
+
+Qui sommes-nous ? – Présentation de l'entreprise.
+République – Explication du cadre réglementaire et des obligations en cybersécurité.
+Services – Liste et détails des services proposés pour sécuriser les infrastructures des PME.
+Contact – Formulaire permettant aux visiteurs d'envoyer un message.
+Ce site doit être moderne, rapide et sécurisé, conçu pour être responsive (adapté aux mobiles) et facile à naviguer.
+
+??? Étape 1 : Configuration de la structure du projet ✅
+Utilise Laravel comme framework principal.
+Laravel Breeze gère l'authentification de manière simple et efficace.
+Utilise Tailwind CSS (déjà inclus avec Breeze) pour le design.
+Ce qui a été fait :
+- Installation de Laravel et Laravel Breeze ✅
+- Configuration de la base de données SQLite ✅
+- Création des migrations pour les tables :
+  * contacts ✅
+  * services ✅
+  * team_members ✅
+  * regulations ✅
+- Création des modèles avec leurs propriétés et règles de validation ✅
+
+?? Étape 2 : Organisation des fichiers ✅
+Le projet suit maintenant cette structure :
+- Un fichier de routes (web.php) pour définir les chemins d'accès aux pages ✅
+- Un dossier contenant les vues Blade (resources/views/pages/) ✅
+- Un fichier principal de layout (resources/views/layouts/app.blade.php) pour l'interface générale ✅
+- Création des contrôleurs pour gérer la logique métier ✅
+- Configuration du système d'envoi d'emails ✅
+
+?? Étape 3 : Création des pages principales (En cours)
+Chaque page doit contenir :
+
+Qui sommes-nous ?
+- Présentation de l'entreprise et de ses valeurs
+- Pourquoi ce site est utile pour sécuriser les PME ?
+- Une section sur l'équipe (si applicable)
+
+République
+- Explication simple des obligations légales en cybersécurité
+- Présentation des normes et réglementations (ex. RGPD)
+- Conseils pour se mettre en conformité
+
+Services
+- Liste des services de cybersécurité disponibles (ex. audit, tests d'intrusion, formation)
+- Courte description de chaque service
+- Avantages pour les PME
+
+Contact
+- Formulaire permettant aux visiteurs d'entrer leur nom, e-mail et message
+- Message de confirmation après soumission
+- L'envoi d'un e-mail à l'administrateur avec les informations du formulaire
+
+?? Étape 4 : Gestion du formulaire de contact ✅
+- Vérification que tous les champs sont remplis correctement ✅
+- Protection du formulaire contre les attaques courantes (injection SQL, spam) ✅
+- Envoi des informations saisies à une adresse e-mail définie ✅
+
+?? Étape 5 : Design et Expérience Utilisateur (En cours)
+- Le site doit être simple et épuré pour une navigation intuitive ✅
+- Utilisation de Tailwind CSS pour styliser les éléments et assurer une bonne lisibilité ✅
+- Assurance que le site est entièrement responsive (adapté aux téléphones et tablettes) ✅
+
+? Étape 6 : Optimisation et Sécurité ✅
+- Utilisation de routes sécurisées pour éviter les attaques (CSRF, XSS) ✅
+- Ajout d'une validation des formulaires pour empêcher les entrées incorrectes ✅
+- Vérification que l'envoi d'e-mail fonctionne bien pour le formulaire de contact ✅
+
+?? Résultat final attendu
+Un site web clair, professionnel et sécurisé avec quatre pages principales.
+Une navigation fluide et un formulaire de contact fonctionnel.
+Une mise en page responsive et moderne adaptée aux PME.
+
+?? Ce que tu ne dois PAS faire :
+? Ne génère pas un CMS complet, le site reste statique avec des pages fixes.
+? N'utilise pas de framework frontend (React, Vue, etc.), Laravel et Blade suffisent.
+? Ne surcharge pas le design avec trop d'éléments complexes, reste simple et efficace.
+
+?? Mission : Générer un site Laravel complet pour la sécurisation des PME, structuré en quatre onglets, avec une navigation fluide et un formulaire de contact sécurisé. ??
