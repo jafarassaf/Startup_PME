@@ -12,8 +12,8 @@ class TeamSeeder extends Seeder
         $team = [
             [
                 'name' => 'Mohamed Anseur',
-                'position' => 'Directrice Générale',
-                'bio' => 'Experte en cybersécurité avec plus de 15 ans d\'expérience dans la protection des infrastructures critiques.',
+                'position' => 'Directeur Général',
+                'bio' => 'Expert en cybersécurité avec plus de 15 ans d\'expérience dans la protection des infrastructures critiques.',
                 'photo' => 'images/team/mohammed-anseur.jpg',
                 'linkedin_url' => 'https://www.linkedin.com/in/mohamed-anseur-1ab1b8355/',
                 'is_active' => true,
@@ -30,8 +30,8 @@ class TeamSeeder extends Seeder
             ],
             [
                 'name' => 'Jafar Assaf',
-                'position' => 'Experte en Protection des Données',
-                'bio' => 'Consultante en conformité RGPD et spécialiste de la protection des données personnelles.',
+                'position' => 'Expert en Protection des Données',
+                'bio' => 'Consultant en conformité RGPD et spécialiste de la protection des données personnelles.',
                 'photo' => 'images/team/jafar-assaf.png',
                 'linkedin_url' => 'https://www.linkedin.com/in/jafar-dylan-assaf-918b282b5/',
                 'is_active' => true,
